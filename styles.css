@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Search Section Styles */
+  .search-section {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #search-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #search-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Results Section Styles */
+  .results-section {
+    padding: 40px 0;
+  }
+  
+  .client-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .client-card p {
+    margin: 5px 0;
+  }
+  
+  .approach-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .approach-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Features Section Styles */
+  .features-section {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  .feature {
+    margin: 20px 0;
+  }
+  
+  .feature h3 {
+    margin: 0 0 10px;
+    font-size: 1.3rem;
+  }
+  
+  .feature p {
+    margin: 5px 0;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
